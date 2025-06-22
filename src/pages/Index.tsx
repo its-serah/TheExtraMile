@@ -23,10 +23,10 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-orange-50 to-purple-100">
       {/* Scroll Progress Indicator */}
       <div 
-        className="fixed top-0 left-0 h-1 bg-gradient-to-r from-purple-600 to-blue-600 z-50 transition-all duration-300"
+        className="fixed top-0 left-0 h-1 bg-gradient-to-r from-purple-600 to-orange-600 z-50 transition-all duration-300"
         style={{ width: `${scrollProgress}%` }}
       />
       
@@ -35,7 +35,7 @@ const Index = () => {
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
-            backgroundImage: `url("data:image/svg+xml,%3csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3e%3cg fill='none' fill-rule='evenodd'%3e%3cg fill='%236366f1' fill-opacity='0.4'%3e%3ccircle cx='30' cy='30' r='2'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e")`,
+            backgroundImage: `url("data:image/svg+xml,%3csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3e%3cg fill='none' fill-rule='evenodd'%3e%3cg fill='%23a563f1' fill-opacity='0.4'%3e%3ccircle cx='30' cy='30' r='2'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e")`,
             backgroundSize: '60px 60px'
           }} />
         </div>
@@ -43,12 +43,9 @@ const Index = () => {
         <div className="container mx-auto px-6 text-center z-10">
           <div className="animate-fade-in">
             <div className="flex items-center justify-center mb-6">
-              <Sparkles className="text-purple-600 mr-2 animate-pulse" size={32} />
-              <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-purple-800 bg-clip-text text-transparent">
+              <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-600 via-orange-500 to-purple-800 bg-clip-text text-transparent">
                 The Extra Mile
               </h1>
-              <Sparkles className="text-blue-600 ml-2 animate-pulse" size={32} />
-            </div>
             
             <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto font-medium">
               Going beyond the requirements to build my own algorithm from scratch 🚀
@@ -56,7 +53,7 @@ const Index = () => {
             
             <Button 
               onClick={() => scrollToSection('why-matters')}
-              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-purple-600 to-orange-600 hover:from-purple-700 hover:to-orange-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               Scroll to My Journey
               <ArrowDown className="ml-2 animate-bounce" size={20} />
@@ -69,7 +66,7 @@ const Index = () => {
           <Brain className="text-purple-600 animate-pulse" size={40} />
         </div>
         <div className="absolute bottom-20 right-10 opacity-20">
-          <Code className="text-blue-600 animate-pulse" size={40} />
+          <Code className="text-orange-500 animate-pulse" size={40} />
         </div>
       </section>
 
@@ -88,7 +85,7 @@ const Index = () => {
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
                 Understanding an algorithm at its core gives you <span className="font-bold text-purple-600">true mastery</span>, 
                 sharp debugging skills, and the confidence to innovate. While "black box" tools make you fast, 
-                <span className="font-bold text-blue-600"> building your own makes you wise</span>. 
+                <span className="font-bold text-orange-600"> building your own makes you wise</span>. 
                 It's the difference between knowing how to use a tool and understanding why it works.
               </p>
             </div>
@@ -144,11 +141,11 @@ const Index = () => {
               </Card>
 
               {/* If I Could Start Again Card */}
-              <Card className="bg-gradient-to-br from-blue-50 to-cyan-50 border-blue-200 hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <Card className="bg-gradient-to-br from-orange-50 to-cyan-50 border-orange-200 hover:shadow-xl transition-all duration-300 hover:scale-105">
                 <CardHeader>
                   <div className="flex items-center">
-                    <Brain className="text-blue-500 mr-3" size={24} />
-                    <CardTitle className="text-blue-700">If I Could Start Again</CardTitle>
+                    <Brain className="text-orange-500 mr-3" size={24} />
+                    <CardTitle className="text-orange-700">If I Could Start Again</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -183,7 +180,7 @@ const Index = () => {
       </section>
 
       {/* Visual Aid Section */}
-      <section className="py-20 bg-gradient-to-r from-purple-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-r from-purple-50 to-orange-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-8">
@@ -213,7 +210,7 @@ const Index = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-purple-600 to-orange-600 text-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-8">
@@ -227,7 +224,7 @@ const Index = () => {
             </p>
             
             <Button 
-              className="bg-white text-purple-600 hover:bg-gray-100 px-12 py-6 text-xl rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-bold"
+              className="bg-white text-purple-600 hover:bg-gray-100 hover:text-orange-600 px-12 py-6 text-xl rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-bold"
             >
               Try It Yourself
               <Sparkles className="ml-3" size={24} />
