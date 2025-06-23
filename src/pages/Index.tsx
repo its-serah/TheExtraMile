@@ -117,7 +117,7 @@ const Index = () => {
                 <CardContent>
                   <CardDescription className="text-gray-700 text-base">
                     The probability calculations kept giving me NaN values. Turns out, I was trying to take 
-                    the log of zero probabilities! The solution was implementing Laplace smoothing - 
+                    the log of zero probabilities! The solution was implementing Laplace smoothing  
                     adding a small constant to avoid zero probabilities. Sometimes the smallest bugs 
                     teach you the biggest lessons.
                   </CardDescription>
@@ -197,7 +197,7 @@ const Index = () => {
                 />
               </div>
               <p className="text-gray-700 italic">
-                "This is how I mapped the algorithm logic before writing code - 
+                "This is how I mapped the algorithm logic before writing code 
                 breaking down Bayes' theorem into digestible chunks and visualizing 
                 the data flow through each step."
               </p>
@@ -216,7 +216,7 @@ const Index = () => {
             
             <p className="text-xl md:text-2xl mb-12 leading-relaxed">
               I encourage every student to try building something from scratch, even if it feels impossible at first. 
-              The struggle is where the real learning happens. Don't just use the tools - 
+              The struggle is where the real learning happens. Don't just use the tools. You're not a user , you should be a creater !
               <span className="font-bold"> understand them</span>.
             </p>
             
@@ -233,7 +233,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 text-white text-center">
         <p className="text-gray-400">
-          Built with passion for learning • The Extra Mile Journey
+          Built with passion for learning - Sarah Rashidi
         </p>
       </footer>
     </div>
