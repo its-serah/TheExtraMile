@@ -46,9 +46,10 @@ const Index = () => {
               <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-600 via-orange-500 to-purple-800 bg-clip-text text-transparent">
                 The Extra Mile
               </h1>
+            </div>
             
             <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto font-medium">
-              Going beyond the requirements to build my own algorithm from scratch 🚀
+              Building innovative solutions and going beyond the ordinary 🚀
             </p>
             
             <Button 
