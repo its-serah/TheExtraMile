@@ -188,16 +188,12 @@ const Index = () => {
             </h2>
             
             <div className="bg-white rounded-2xl shadow-xl p-8 border border-purple-200">
-              <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-12 mb-6 min-h-[300px] flex items-center justify-center">
-                <div className="text-center">
-                  <Brain className="text-purple-600 mx-auto mb-4" size={64} />
-                  <p className="text-gray-600 text-lg">
-                    Mind map or handwritten notes would go here
-                  </p>
-                  <p className="text-sm text-gray-500 mt-2">
-                    (Algorithm flow diagram, probability formulas, data structure sketches)
-                  </p>
-                </div>
+              <div className="rounded-xl mb-6 overflow-hidden">
+                <img 
+                  src="/imagemile.png" 
+                  alt="Algorithm visualization diagram" 
+                  className="w-full h-auto object-contain mx-auto rounded-lg shadow-md"
+                />
               </div>
               <p className="text-gray-700 italic">
                 "This is how I mapped the algorithm logic before writing code - 
